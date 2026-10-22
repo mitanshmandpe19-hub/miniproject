@@ -46,13 +46,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Footnote & Copyright */}
         <div className="w-full flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
           <p>© {new Date().getFullYear()} REQUIRE Intelligent Systems. All rights reserved.</p>
-          <div className="flex gap-6 text-[11px] font-semibold tracking-wider text-slate-400 uppercase">
-            <span className="hover:text-slate-700 cursor-pointer transition-colors">Privacy Policy</span>
-            <span>•</span>
-            <span className="hover:text-slate-700 cursor-pointer transition-colors">Terms of Service</span>
-            <span>•</span>
-            <span className="hover:text-slate-700 cursor-pointer transition-colors">Security & SOC2</span>
-          </div>
         </div>
       </div>
     </footer>
